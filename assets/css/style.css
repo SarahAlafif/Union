@@ -1,0 +1,41 @@
+body{
+    padding-top: 10px 5px 5px 5px;
+
+}
+.navbar{
+    padding: 1rem;
+    margin-left: 4rem;
+    background-color: white;
+}
+#brandd{
+    font-family: Graphik-Regular,Roboto,Helvetica,sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: gray;
+}
+a {
+    position: relative;
+    text-decoration: none;
+  }
+
+  a:hover::after {
+    content: "";
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 0;
+    border: 1px solid rgb(241, 21, 21);
+  }
+/*end of navar*/
+
+/* The hero image */
+.hero-img{
+    background-image: url("../img/img2.jpg");
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 5em 0;
+
+}
